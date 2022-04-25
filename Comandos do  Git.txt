@@ -2,6 +2,8 @@
 git init
 
 git add .
+ou
+git add <lista de arquivos>
 
 git commit -m <comentário>
 
@@ -10,5 +12,11 @@ git push
 git remote add origin <https://github.com/JucelioAmaral/...>
 
 git remote -v
+Para ver que pode ser fetch ou push
 
 git push -u origin master
+
+git diff
+
+git diff HEAD~1
+Mostra o que mudou do último commit
