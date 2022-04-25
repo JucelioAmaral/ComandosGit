@@ -29,6 +29,8 @@ git pull
 Puxa as alterações do repositório remoto
 
 git checkout <commit>
+Exemplo : git checkout dd5dcbc5f0
+OBS: Não precisa copiar e colar todo o código do commit, apenas o início porque será diferente dos outros.
 Altera o repositório para o estado daquele commit
 
 ---------------------
