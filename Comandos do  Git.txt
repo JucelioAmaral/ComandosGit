@@ -21,3 +21,19 @@ Exibi diferenças entre commits e branchs
 
 git diff HEAD~1
 Mostra o que foi alterado no último commit
+
+git clone <URL>
+Clona o repositório já existente
+
+git pull
+Puxa as alterações do repositório remoto
+
+git checkout <commit>
+Altera o repositório para o estado daquele commit
+
+---------------------
+Adicionar colaborador no repositório:
+
+Ir na aba Settings;
+Do lado esquerdo, em Access, clique em Collaborators;
+Aadicione uma pessoa ("Add people") com o nome que é encontrado no GitHub.
