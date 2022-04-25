@@ -17,6 +17,7 @@ Para ver que pode ser fetch ou push
 git push -u origin master
 
 git diff
+Exibi diferenças entre commits e branchs
 
 git diff HEAD~1
-Mostra o que mudou do último commit
+Mostra o que foi alterado no último commit
