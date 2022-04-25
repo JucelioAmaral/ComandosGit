@@ -6,3 +6,9 @@ git add .
 git commit -m <comentário>
 
 git push
+
+git remote add origin <https://github.com/JucelioAmaral/...>
+
+git remote -v
+
+git push -u origin master
