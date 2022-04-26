@@ -59,3 +59,7 @@ Adicionar colaborador no repositório:
 Ir na aba Settings;
 Do lado esquerdo, em Access, clique em Collaborators;
 Aadicione uma pessoa ("Add people") com o nome que é encontrado no GitHub.
+
+
+
+comit de teste
