@@ -52,7 +52,6 @@ cat <NomeDoArquivo>
 Lê tudo que está escrito no arquivo no console do GitHub
 
 
-teste de revert
 
 ---------------------
 Adicionar colaborador no repositório:
