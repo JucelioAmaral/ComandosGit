@@ -52,6 +52,9 @@ Serve para reverter o commit realizado (antes de dar push). O "<CódigoDoCommit>
 Ele reseta o repositório para um determinado commit
 OBS: Use o git diff (git diff <CódigoDoCommit> <CódigoDoCommit>) e também o "cat <>" para comparar as diferenças.
 
+git reset HEAD~1 --hard
+Apaga no repositório local o último(~1) commit feito. Usado se não foi feita a publicação, ou seja, push. Volta para o estado anterior.
+
 
 
 cat <NomeDoArquivo>
