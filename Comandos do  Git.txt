@@ -24,13 +24,16 @@ Exibi diferenças entre commits e branchs
 git diff HEAD~1
 Mostra o que foi alterado no último commit
 
+git diff <CódigoDoCommit> <CódigoDoCommit>
+Compara os dois commits comparados no diff
+
 git clone <URL>
 Clona o repositório já existente
 
 git pull
 Puxa as alterações do repositório remoto
 
-git checkout <commit>
+git checkout <CódigoDoCommit>
 Exemplo : git checkout dd5dcbc5f0
 OBS: Não precisa copiar e colar todo o código do commit, apenas o início porque será diferente dos outros.
 Altera o repositório para o estado daquele commit
