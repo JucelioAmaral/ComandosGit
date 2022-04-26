@@ -40,6 +40,11 @@ ou
 git checkout -- .                                => (Retona todos os arquivos ao que era no último commit)
 Serve para desfazer as alterações que não estejam no stage desde o último commit, ou seja, ignora o que está no stage e volta ao que era no último commit.
 
+git checkout HEAD -- <NomeDoArquivo>
+Esse comando serve para desfazer o que foi feito após ter enviado o comando "git add ." sem querer ou quer desfazer/melhorar/corrigir o que está no que salvou localmente.
+OBS:Dê "git status" para verificar após o Add, para verificar que foi add e novo "git status" após este comando acima para ver que retornou ao que era antes.
+
+
 cat <NomeDoArquivo>
 Lê tudo que está escrito no arquivo no console do GitHub
 
