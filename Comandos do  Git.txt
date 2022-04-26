@@ -19,10 +19,10 @@ Para ver que pode ser fetch ou push
 git push -u origin master
 
 git diff
-Exibi diferenças entre commits e branchs
+Exibi as alterações/diferença entre commits e branchs
 
 git diff HEAD~1
-Mostra o que foi alterado no último commit
+Mostra o que foi alterado/diferença do último commit
 
 git diff <CódigoDoCommit> <CódigoDoCommit>
 Compara os dois commits comparados no diff
@@ -59,7 +59,3 @@ Adicionar colaborador no repositório:
 Ir na aba Settings;
 Do lado esquerdo, em Access, clique em Collaborators;
 Aadicione uma pessoa ("Add people") com o nome que é encontrado no GitHub.
-
-
-
-comit de teste
