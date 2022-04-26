@@ -1,4 +1,6 @@
 
+COMANDOS DO GIT
+
 git init
 
 git add .
@@ -32,6 +34,16 @@ git checkout <commit>
 Exemplo : git checkout dd5dcbc5f0
 OBS: Não precisa copiar e colar todo o código do commit, apenas o início porque será diferente dos outros.
 Altera o repositório para o estado daquele commit
+
+git checkout -- <NomeDoArquivoAlterado>          => (Retona o arquivo ao que era no último commit)
+ou 
+git checkout -- .                                => (Retona todos os arquivos ao que era no último commit)
+Serve para desfazer as alterações que não estejam no stage desde o último commit, ou seja, ignora o que está no stage e volta ao que era no último commit.
+
+cat <NomeDoArquivo>
+Lê tudo que está escrito no arquivo no console do GitHub
+
+
 
 ---------------------
 Adicionar colaborador no repositório:
