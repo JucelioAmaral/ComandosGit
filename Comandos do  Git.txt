@@ -47,6 +47,12 @@ git checkout HEAD -- <NomeDoArquivo>
 Esse comando serve para desfazer o que foi feito após ter enviado o comando "git add ." sem querer ou quer desfazer/melhorar/corrigir o que está no que salvou localmente.
 OBS:Dê "git status" para verificar após o Add, para verificar que foi add e novo "git status" após este comando acima para ver que retornou ao que era antes.
 
+git revert <CódigoDoCommit>
+Serve para reverter o commit realizado (antes de dar push). O "<CódigoDoCommit>" será o código do commit gerado no commit que deseja reverter.
+Ele reseta o repositório para um determinado commit
+OBS: Use o git diff (git diff <CódigoDoCommit> <CódigoDoCommit>) e também o "cat <>" para comparar as diferenças.
+
+
 
 cat <NomeDoArquivo>
 Lê tudo que está escrito no arquivo no console do GitHub
