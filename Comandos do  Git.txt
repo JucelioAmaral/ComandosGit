@@ -82,7 +82,20 @@ Após verificar o que manter ou remover,  faça novo "git Add .", "git commit...
 
 >> Branching, Merge e Rebase <<
 
+** git branch **
+git branch
+Exibirá as branchs e com um asterisco (*) na frente a branch que está atualmente.
 
+** git branch <NomeDaBranch> **
+git branch NovaBranch
+Cria-se uma nova branch a partir da master
+
+** git branch -d <NomeDaBranch> **
+git branch -d NovaBranch
+Exclui a branch.
+
+** git checkout <NomeDaBranch> **
+Muda de branch. O comando "git checkout" tbm serve para mudra de branch
 
 ---------------------
 Adicionar colaborador no repositório:
