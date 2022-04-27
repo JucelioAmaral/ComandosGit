@@ -1,6 +1,7 @@
 
 COMANDOS DO GIT
 
+** comandos mais utilizados/do dia a dia **
 git init
 
 git add .
@@ -18,6 +19,11 @@ Para ver que pode ser fetch ou push
 
 git push -u origin master
 
+** cat **
+cat <NomeDoArquivo>
+Lê tudo que está escrito no arquivo no console do GitHub
+
+** git diff **
 git diff
 Exibi as alterações/diferença entre commits e branchs
 
@@ -27,12 +33,15 @@ Mostra o que foi alterado/diferença do último commit
 git diff <CódigoDoCommit> <CódigoDoCommit>
 Compara os dois commits comparados no diff
 
+** git clone **
 git clone <URL>
 Clona o repositório já existente
 
+** git pull **
 git pull
 Puxa as alterações do repositório remoto
 
+** git checkout **
 git checkout <CódigoDoCommit>
 Exemplo : git checkout dd5dcbc5f0
 OBS: Não precisa copiar e colar todo o código do commit, apenas o início porque será diferente dos outros.
@@ -47,6 +56,7 @@ git checkout HEAD -- <NomeDoArquivo>
 Esse comando serve para desfazer o que foi feito após ter enviado o comando "git add ." sem querer ou quer desfazer/melhorar/corrigir o que está no que salvou localmente.
 OBS:Dê "git status" para verificar após o Add, para verificar que foi add e novo "git status" após este comando acima para ver que retornou ao que era antes.
 
+** git revert **
 git revert <CódigoDoCommit>
 Serve para reverter o commit realizado (antes de dar push). O "<CódigoDoCommit>" será o código do commit gerado no commit que deseja reverter.
 Ele reseta o repositório para um determinado commit
@@ -57,8 +67,6 @@ Apaga no repositório local o último(~1) commit feito. Usado se não foi feita 
 
 
 
-cat <NomeDoArquivo>
-Lê tudo que está escrito no arquivo no console do GitHub
 
 
 
