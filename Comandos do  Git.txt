@@ -82,7 +82,7 @@ Após verificar o que manter ou remover,  faça novo "git Add .", "git commit...
 
 >> Branching, Merge e Rebase <<
 
-
+teste
 
 ---------------------
 Adicionar colaborador no repositório:
