@@ -23,6 +23,10 @@ git push -u origin master
 cat <NomeDoArquivo>
 Lê tudo que está escrito no arquivo no console do GitHub
 
+** clear **
+clear
+Comando para limpar o console do GitHub
+
 ** git diff **
 git diff
 Exibi as alterações/diferença entre commits e branchs
@@ -67,9 +71,13 @@ git reset HEAD~1 --hard
 Apaga no repositório local o último(~1) commit feito. Usado se não foi feita a publicação, ou seja, push. Volta para o estado anterior.
 
 
-
-
-
+** Conflitos (master|MERGING) **
+Ocorre conflito quando na mesma linha houve alterações de fontes de alterações diferentes. Só executar "git pull" não resolve.
+Deve-se se executar os comandos:
+Dê uma "git pull" para trazer as alterações;
+git status => para verificar se há divergencia;
+Abra o arquivo onde há o conflito, verifique e resolva o que deve manter ou remover.
+Após verificar o que manter ou remover,  faça novo "git Add .", "git commit..." e "git push" criando assim o merge.
 
 ---------------------
 Adicionar colaborador no repositório:
