@@ -82,7 +82,33 @@ Após verificar o que manter ou remover,  faça novo "git Add .", "git commit...
 
 >> Branching, Merge e Rebase <<
 
-teste
+
+=======
+** git branch **
+git branch
+Exibirá as branchs e com um asterisco (*) na frente a branch que está atualmente.
+
+** git branch <NomeDaBranch> **
+git branch NovaBranch
+Cria-se uma nova branch a partir da master
+OBS1: A branch no GitHub (https://github.com/...) só passa a existir quando faz um push.
+OBS2: Terá que usar o comando: 
+git push --set-upstream origin <NomeDaBranch>
+ou
+git push -u origin <NomeDaBranch>
+
+
+** git branch -d <NomeDaBranch> **
+git branch -d NovaBranch
+Exclui a branch.
+
+** git checkout <NomeDaBranch> **
+Muda de branch. O comando "git checkout" tbm serve para mudra de branch
+
+git merge <branch>
+Comando para aplicar os commits de uma branch na branch atual.
+
+>>>>>>> master
 
 ---------------------
 Adicionar colaborador no repositório:
