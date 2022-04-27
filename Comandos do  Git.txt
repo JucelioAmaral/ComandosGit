@@ -103,6 +103,10 @@ Exclui a branch.
 ** git checkout <NomeDaBranch> **
 Muda de branch. O comando "git checkout" tbm serve para mudra de branch
 
+git merge <branch>
+Comando para aplicar os commits de uma branch na branch atual.
+
+
 ---------------------
 Adicionar colaborador no repositório:
 
