@@ -1,7 +1,7 @@
 
 # README
 
-![GitHub.png]! (GitHub)
+![GitHub](GitHub.png)
 
 Este repositório serve de exemplo para curso de Git e gitHub.
 
