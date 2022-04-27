@@ -110,6 +110,11 @@ Comando para aplicar os commits de uma branch na branch atual.
 Semelhante ao Merge porém é diferente na ordem de aplicar os commits
 Usando esse comando, será criada linearmente os commits da branch secundária e depois inclui os commits existentes da master que existe após a clonagem.
 
+** git fetch **
+Baixa as atualizações do remote porém não aplica elas no repositório.
+pull = fetch + Merge
+Fetch e Rebase é melhor para manter o histórico do desenvolvimento.
+
 ---------------------
 Adicionar colaborador no repositório:
 
