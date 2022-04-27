@@ -106,10 +106,13 @@ Muda de branch. O comando "git checkout" tbm serve para mudra de branch
 git merge <branch>
 Comando para aplicar os commits de uma branch na branch atual.
 
+** git rebase <NomeDaBranch> **
+Semelhante ao Merge porém é diferente na ordem de aplicar os commits
+Usando esse comando, será criada linearmente os commits da branch secundária e depois inclui os commits existentes da master que existe após a clonagem.
 
 ---------------------
 Adicionar colaborador no repositório:
 
 Ir na aba Settings;
 Do lado esquerdo, em Access, clique em Collaborators;
-Aadicione uma pessoa ("Add people") com o nome que é encontrado no GitHub.
+Adicione uma pessoa ("Add people") com o nome que é encontrado no GitHub.
