@@ -89,6 +89,7 @@ Exibirá as branchs e com um asterisco (*) na frente a branch que está atualmen
 ** git branch <NomeDaBranch> **
 git branch NovaBranch
 Cria-se uma nova branch a partir da master
+OBS: A branch no GitHub (https://github.com/...) só passa a existir quando faz um commit.
 
 ** git branch -d <NomeDaBranch> **
 git branch -d NovaBranch
