@@ -1,7 +1,7 @@
 
 COMANDOS DO GIT
 
-** comandos mais utilizados/do dia a dia **
+>> Comandos mais utilizados no dia a dia para históricos e conflitos <<
 git init
 
 git add .
@@ -78,6 +78,11 @@ Dê uma "git pull" para trazer as alterações;
 git status => para verificar se há divergencia;
 Abra o arquivo onde há o conflito, verifique e resolva o que deve manter ou remover.
 Após verificar o que manter ou remover,  faça novo "git Add .", "git commit..." e "git push" criando assim o merge.
+
+
+>> Branching, Merge e Rebase <<
+
+
 
 ---------------------
 Adicionar colaborador no repositório:
