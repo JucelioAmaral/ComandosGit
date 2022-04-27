@@ -82,8 +82,6 @@ Após verificar o que manter ou remover,  faça novo "git Add .", "git commit...
 
 >> Branching, Merge e Rebase <<
 
-
-=======
 ** git branch **
 git branch
 Exibirá as branchs e com um asterisco (*) na frente a branch que está atualmente.
