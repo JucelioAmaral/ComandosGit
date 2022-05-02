@@ -115,6 +115,16 @@ Baixa as atualizações do remote porém não aplica elas no repositório.
 pull = fetch + Merge
 Fetch e Rebase é melhor para manter o histórico do desenvolvimento.
 
+** git tag **
+git tag v1.0
+Cria a tag baseada no último push
+
+git push origin v1.0
+Envia a tag para o repositório.
+
+git checkout v1.0
+Dá checkout na tag, podendo criar uma branch dentro dela.
+
 ---------------------
 Adicionar colaborador no repositório:
 
