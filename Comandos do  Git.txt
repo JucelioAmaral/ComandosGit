@@ -132,6 +132,18 @@ OBS2: Funciona antes de dar push.
 OBS3 IMPORTANTE: Deve-se clicar em "ctrl + c" para sair do editor e digitar ":wq" para conseguir dar o pudh logo em seguida.
 Comando utilizado para inserir/editar mais informações no comentário do commit. Serve também para adicionar arquivos.
 
+** git stash **
+git stash
+Guarda as alterções já realizadas, sem ter que comitar nem add nem nada, para, talvez, trocar ou consultar outra branch.
+
+OBS:
+
+git stash list
+Serve para listar o que está pendente para comitar, ou seja, o que foi salvo com o comando "git stash"
+
+git stash pop
+Recupera o que foi salvo com o comando "git stash" para dar continuidade e depois comitar.
+
 ---------------------
 Adicionar colaborador no repositório:
 
