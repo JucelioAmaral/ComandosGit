@@ -125,6 +125,13 @@ Envia a tag para o repositório.
 git checkout v1.0
 Dá checkout na tag, podendo criar uma branch dentro dela.
 
+** git amend **
+git commit --amend
+OBS1: Após este comando habilita-se para editar/inserir mais comentários.
+OBS2: Funciona antes de dar push.
+OBS3 IMPORTANTE: Deve-se clicar em "ctrl + c" para sair do editor e digitar ":wq" para conseguir dar o pudh logo em seguida.
+Comando utilizado para inserir/editar mais informações no comentário do commit. Serve também para adicionar arquivos.
+
 ---------------------
 Adicionar colaborador no repositório:
 
