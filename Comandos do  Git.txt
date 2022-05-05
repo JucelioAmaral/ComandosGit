@@ -150,6 +150,10 @@ git cherry-pick <NomeDaBranch> ou <CódigoDoCommit>
 O git cherry-pick pode ser útil para desfazer alterações. Por exemplo, digamos que o commit seja feito sem querer na ramificação errada. É possível alterar para a ramificação correta e fazer o cherry-pick do commit para onde ele deveria pertencer.
 Mais em: https://www.atlassian.com/br/git/tutorials/cherry-pick
 
+** git blame **
+git blame <NomeDoArquivo>
+Comando utilizado para mostrar as alterações que foram feitas no arquivo por linha, mostra o autor e o commit.
+
 ---------------------
 Adicionar colaborador no repositório:
 
