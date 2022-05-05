@@ -144,6 +144,12 @@ Serve para listar o que está pendente para comitar, ou seja, o que foi salvo co
 git stash pop
 Recupera o que foi salvo com o comando "git stash" para dar continuidade e depois comitar.
 
+
+**  git cherry-pick **
+git cherry-pick <NomeDaBranch> ou <CódigoDoCommit>
+O git cherry-pick pode ser útil para desfazer alterações. Por exemplo, digamos que o commit seja feito sem querer na ramificação errada. É possível alterar para a ramificação correta e fazer o cherry-pick do commit para onde ele deveria pertencer.
+Mais em: https://www.atlassian.com/br/git/tutorials/cherry-pick
+
 ---------------------
 Adicionar colaborador no repositório:
 
